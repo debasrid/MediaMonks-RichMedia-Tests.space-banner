@@ -29,6 +29,18 @@ body {
 
 
 /* Banner Styles */
+.noscript-fallback {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border: solid 1px;
+    overflow: hidden;
+    background: url(../img/bg-backup.jpg);
+}
+
+.noscript-links {
+    text-decoration: none;
+}
 
 .banner {
     position: relative;
@@ -37,7 +49,6 @@ body {
     border: solid 1px;
     overflow: hidden;
     background-color: #fff;
-
 
     #div_main {
         position: absolute;

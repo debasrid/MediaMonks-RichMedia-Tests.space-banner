@@ -1,7 +1,7 @@
 
 export default class AnimationModule {
     constructor() {
-        build();
+        this.build();
     }
 
     build() {
@@ -73,8 +73,9 @@ export default class AnimationModule {
     }
 
     // TODO: STOP THE ANIMATION
+    //Fix bug 27: Stop animation when exit triggered.
     stop() {
-
+        this.mainTimeline.stop();
     }
 
 }

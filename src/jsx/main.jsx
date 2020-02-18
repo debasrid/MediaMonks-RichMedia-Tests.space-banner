@@ -41,17 +41,18 @@ class Banner {
     }
 
     rollover() {
-        animation.playCtaIn();
+        this.animation.playCtaIn();
     };
     
     rollout() {
-        animation.playCtaOut();
+        this.animation.playCtaOut();
     };
 
     exit() {
         this.animation.stop();
-        window.open(window.clickTAG);
+        window.open(window.clickTAG); 
     }
+
 }
 
 window.addEventListener("load", () => {
